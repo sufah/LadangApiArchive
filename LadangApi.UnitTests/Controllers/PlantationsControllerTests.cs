@@ -1,5 +1,5 @@
-﻿
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using NUnit.Framework.Internal;
 
 namespace LadangApi.UnitTests.Controllers
 {
@@ -7,7 +7,7 @@ namespace LadangApi.UnitTests.Controllers
     public class PlantationsControllerTests
     {
         [Test]
-        public void Get_PlantationList_ReturnTrue()
+        public void Get_AccessDatabase_ReturnPlantationList()
         {
             // Arrange
 

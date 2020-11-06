@@ -13,5 +13,9 @@
     <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="LadangApi.UnitTests\LadangApi.UnitTests.csproj" />
+  </ItemGroup>
+
 
 </Project>
