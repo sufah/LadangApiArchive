@@ -1,7 +1,7 @@
-﻿using LadangApi.Data;
-using LadangApi.Models;
+﻿using LadangApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using LadangApi.Interface;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,9 +11,9 @@ namespace LadangApi.Controllers
     [ApiController]
     public class PlantationsController : ControllerBase
     {
-        private PlantationDbContext _plantationDbContext;
+        private IPlantationDbContext _plantationDbContext;
 
-        public PlantationsController(PlantationDbContext plantationDbContext)
+        public PlantationsController(IPlantationDbContext plantationDbContext)
         {
             _plantationDbContext = plantationDbContext;
         }
