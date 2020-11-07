@@ -13,5 +13,11 @@
     <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="LadangApi.UnitTests\obj\LadangApi.UnitTests.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="LadangApi.UnitTests\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="LadangApi.UnitTests\obj\project.packagespec.json" />
+  </ItemGroup>
+
 
 </Project>
